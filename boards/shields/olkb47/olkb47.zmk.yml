@@ -1,0 +1,8 @@
+file_format: "1"
+id: olkb47
+name: OLKB47
+type: shield
+url: https://github.com/adam-s95/zmk-config
+requires: [pro_micro]
+features:
+  - keys
