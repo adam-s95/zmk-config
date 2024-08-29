@@ -1,6 +1,6 @@
 if SHIELD_OLKB47
 
 config ZMK_KEYBOARD_NAME
-    default "OLKB 47"
+    default "OLKB47"
 
 endif
