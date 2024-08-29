@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
@@ -23,10 +24,10 @@
 
         lower {
             bindings = <
-                &sys_reset    &bootloader  &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
-                &bt BT_SEL 0  &trans       &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
-                &trans        &trans       &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
-                &trans        &trans       &trans    &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &sys_reset    &bootloader   &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &bt BT_SEL 0  &out OUT_TOG  &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans        &trans        &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &trans        &trans        &trans    &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans
             >;
         };
 
